@@ -92,7 +92,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          ref: master
+          ref: fix-labwc
       - name: Checkout Source code
         if: github.event_name == 'pull_request'
         uses: actions/checkout@v4
